@@ -1,11 +1,14 @@
 # Site
 
-title:
+title: Python for Geospatial Modeling
+subtitle: Temperature Regression
 handouts:
-tag:
-lesson:
-instructor:
+  - data/README.md
+tag: v0.0
+lesson: 6
+instructor: Benoit Parmentier
 authors:
+  - Benoit Parmentier
 
 # Slides
 
