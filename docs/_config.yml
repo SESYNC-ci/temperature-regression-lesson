@@ -4,6 +4,16 @@ title: Python for Geospatial Modeling
 subtitle: Temperature Regression
 handouts:
   - data/README.md
+  - data/lst_mean_month1_rescaled.tif
+  - data/lst_mean_month7_rescaled.tif
+  - ghcn_or_tmax_covariates_06262012_OR83M.shp
+  - ghcn_or_tmax_covariates_06262012_OR83M.shx
+  - ghcn_or_tmax_covariates_06262012_OR83M.prj
+  - ghcn_or_tmax_covariates_06262012_OR83M.dbf
+  - ghcn_or_tmax_covariates_06262012_OR83M.txt
+  - ghcn_or_tmax_covariates_06262012_OR83M.sbx
+  - ghcn_or_tmax_covariates_06262012_OR83M.sbn
+##ARGS 11
 tag: v0.0
 lesson: 6
 instructor: Benoit Parmentier
