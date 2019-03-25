@@ -13,7 +13,6 @@ handouts:
   - data/ghcn_or_tmax_covariates_06262012_OR83M.txt
   - data/ghcn_or_tmax_covariates_06262012_OR83M.sbx
   - data/ghcn_or_tmax_covariates_06262012_OR83M.sbn
-##ARGS 11
 tag: v0.0
 lesson: 6
 instructor: Benoit Parmentier
