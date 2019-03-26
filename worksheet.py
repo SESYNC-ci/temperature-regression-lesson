@@ -111,11 +111,9 @@ def fit_ols_reg(avg_df,selected_features,selected_target,prop=0.3,random_seed=10
 #####  Parameters and argument set up ###########
 
 #ARGS 1
-#in_dir="/nfs/bparmentier-data/Data/workshop_spatial/climate_regression/data/"
-in_dir = "/home/bparmentier/c_drive/Users/bparmentier/Data/python/climate_regression/data"
+in_dir = "../data"
 #ARGS 2
-#out_dir="/nfs/bparmentier-data/Data/workshop_spatial/climate_regression/outputs"
-out_dir = "/home/bparmentier/c_drive/Users/bparmentier/Data/python/climate_regression/outputs"
+out_dir = "."
 #ARGS 3
 create_out_dir=True #create a new ouput dir if TRUE
 #ARGS 4
@@ -361,11 +359,11 @@ residuals_jul_df =fit_ols_jul[3]
 residuals_jan_df.columns
 
 residuals_jan_df['test'] = residuals_jan_df['test'].astype('category')
-outfile = os.path.join(out_dir,"residuals_jan_df_"+out_suffix+".csv")
+outfile = "residuals_jan_df_"+out_suffix+".csv"
 residuals_jan_df.to_csv(outfile)
 
 residuals_jul_df['test'] = residuals_jul_df['test'].astype('category')
-outfile = os.path.join(out_dir,"residuals_jul_df_"+out_suffix+".csv")
+outfile = out_dir,"residuals_jul_df_"+out_suffix+".csv"
 residuals_jul_df.to_csv(outfile)
 
 #Note that we had to change data type to categorical for the variable used on the x-axis!
